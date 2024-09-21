@@ -1,0 +1,376 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.713);
+}
+.get-started{
+    background-color: rgba(0, 0, 0, 0);
+   border:2px solid #ffc451;
+   font-size: 3vh;
+   padding: 0.5vw;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 10px;
+   transition: 0.5s;
+}
+.get-started:hover{ 
+  background-color: #ffc451;
+}
+.div-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("images/hero-bg.jpg") fixed center center;
+    /* background-image: url("images/hero-bg.jpg");
+    background-position: top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-blend-mode: darken;
+}
+.clients{
+    filter:grayscale(100%) ;
+    transition: 0.5s;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.clients:hover{
+  filter: none;
+}
+.h1-1{
+    margin-top: 13vw;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.p-1{
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Raleway", sans-serif;
+}
+.icon1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffc451;   
+}
+.h4-1{
+    font-size: 20px;
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+.card-1{
+    border: 1px solid gray;
+    margin-top: 3rem;
+    margin-bottom: 3rem;    
+    width: 100%;
+    transition: 0.5s;
+    padding: 2rem;
+}
+.card-1:hover{
+    border: 1px solid #ffc451;
+}
+.con-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc451;
+    margin-top: 4vw;
+    border-radius: 5px;
+}
+.h3-1{
+    font-family: "Raleway", sans-serif;
+    padding: 2vh;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.h3-1:hover{
+    color: #ffc451;
+}
+.card-2{
+    transition: 0.5s;
+    margin-top: 3vw;
+}
+.card-2:hover{
+    box-shadow: rgba(128, 128, 128, 0.586) 5px 0px 5px 0px;
+    transform: translatey(-8px);
+}
+.h1-6{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.p-6{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.but-call{
+    margin-top: 1rem;
+    padding: 1.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: 3vw;
+}
+.but-call:hover{
+    background-color: #ffc451;
+    border:1.5px solid #ffc451 ;
+    color: black;
+}
+.sec-6{
+    background: linear-gradient(rgba(0, 0, 0, 0.421),rgba(0, 0, 0, 0.421)),url("images/cta-bg.jpg") fixed center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover ;
+    margin-bottom: 7rem;
+    background-blend-mode: darken;
+}
+.con-images{
+    overflow: hidden;
+    background-image: url("./images/portfolio/1.jpg");
+}
+.con-images:hover{
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: darken;
+    transition: 1s;
+}
+.all{
+    transition: 0.5s;
+}
+.all:hover{
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.764);
+    background-blend-mode: darken;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}  
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:#ffc551d3;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.but-use{
+    border: none;
+    color: black;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.but-use:hover{
+    background-color: #ffc451;
+}
+.btn-5{
+    height: 80%;
+    object-fit: cover;
+    width: 100%;
+}
+.sec9{
+    background: linear-gradient(rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628)),url('./images/sec9.jpg') fixed center center;
+    /* background-image: url('./images/sec9.jpg');
+    background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 5vw;
+    /* background-color: rgba(0, 0, 0, 0.628); */
+    background-blend-mode: darken;
+}
+.con-avatar{
+    border: 4px solid rgba(0, 0, 0, 0.598);
+    border-radius: 50%;
+    width: 30%;
+}
+.avatar{
+    width: 100%;
+    border-radius: 50%;
+}
+.h2-9{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 1vw;
+}
+.h5-9{
+    color: #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.p-9{
+    color: #eee;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vw;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+}  
+.image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}  
+.overlay1 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:#ffc55154;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}  
+.container1:hover .overlay1 {
+    bottom: 0;
+    height: 100%;
+}  
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h4-10{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #151515;
+    padding: 0.5vw;
+    margin-top: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon-10{
+    border: none;
+    border-radius: 5px;
+    color: #151515a9;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: 0.5s;
+}
+.icon-10:hover{
+    color: black;
+    background-color: #ffc451;
+}
+.inp-1{
+    width: 100%;
+    text-align: left;
+    padding: 0.5vw;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #484848;
+    transition: 0.5s;
+}
+.inp-1:hover{
+    border:1px solid #ffc451;
+}
+.but-11{
+    padding: 0.7vw;
+    color: #151515;
+    background-color: #ffc451;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: none;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.but-11:hover{
+    background-color: #ffc551dc;
+}
+.p-foot{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+.icon-foot{
+    color: #fff;
+    border: none;
+    background-color:#292929;
+    padding: 0.3vw;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.icon-foot:hover{
+    color: #151515;
+    background-color: #ffc451;
+}
+.h4-foot{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+.li-foot{
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 1vw;
+}
+.li-foot:hover{
+    color: #ffc451;
+}
+.but-foot{
+    color: #151515;
+    background-color: #ffc451;
+    padding: 0.7vw;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.but-foot:hover{
+    background-color: #ffc551bf;
+}
